@@ -1,0 +1,167 @@
+
+body{
+  background:url("img.jpg") no-repeat center center/cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#main{
+  font-size: 1.5rem;
+  color: white;
+  background-color:black;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 10px;
+  width: 37%;
+
+}
+
+#inner{
+  font-size: 1.5rem;
+  background-color:white;
+  border-radius: 30px;
+  padding-top:20px;
+  color: black;
+  box-shadow: 0 0 20px black;
+
+}
+
+#calculate{
+    background-color:black;
+    color: white;
+    font-size: 2rem;
+    transition:.5s;
+    border-radius: 30px;
+    border: none;
+    margin:20px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+}
+
+#calculate:hover{
+  opacity: .6;
+}
+
+@media only screen and (max-width:600px)
+{
+  body{
+    background:url("img.jpg") no-repeat center center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #main{
+    font-size: 1.3rem;
+    color: white;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+  
+  }
+}
+
+@media only screen and (min-width:600px)
+{
+  body{
+    background:url("img.jpg") no-repeat center center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #main{
+    font-size: 1.3rem;
+    color: white;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+  
+  }
+}
+
+@media only screen and (min-width:768px)
+{
+  body{
+    background:url("img.jpg") no-repeat center center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #main{
+    font-size: 1.3rem;
+    color: white;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:992px)
+{
+  body{
+    background:url("img.jpg") no-repeat center center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #main{
+    font-size: 1.5rem;
+    color: white;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+  
+  }
+}
+
+@media only screen and (min-width:1200px)
+{
+  body{
+    background:url("img.jpg") no-repeat center center/cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #main{
+    font-size: 1.5rem;
+    color: white;
+    background-color:black;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+    width: 37%;
+  
+  }
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href ="bmi.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="main">
+  <h1>BMI Calculator</h1>
+  <h3>Health Condition:<span id="condition"></span></h3>
+  <h3>BMI value:<span id="bmi-value"></span></h3>
+<div id="inner">
+<div id="height">
+  <h3 >Height:<span id="h-value"></span>cm</h3>
+  <input type="range" min="0" max="260" id="ht" value="0">
+</div>
+
+<div id="weight">
+  <h3>Weight:<span id="w-value"></span>kg</h3>
+  <input type="range" min="0" max="200" id="wt" value="0">
+</div>
+<br>
+<button id="calculate">Calculate</button>
+<h5  style="padding-bottom: 20px; font-size: medium;">DEVELOPED BY SANTHOSH</h5>
+</div>
+</div>
+</div>
+<script src="bmi.js"></script>
+</body>
+</html>
